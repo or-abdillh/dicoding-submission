@@ -76,3 +76,64 @@
 	display: inline-block;
 	margin-right: 1rem;
 }
+
+.landing {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.landing .landing-hero {
+	width: 40%;
+}
+
+.landing-hero img {
+	width: 80%;
+	background-color: var(--youth-blue);
+	border-radius: 50%;
+	border: 2px dashed rgba(255, 255, 255, .5);
+}
+
+.landing .landing-brand {
+	width: 50%;
+}
+
+.landing-brand img {
+	width: 12rem;
+	margin-bottom: 1rem;
+}
+
+.landing-brand h1 {
+	color: var(--yellow);
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: .55rem;
+}
+
+.landing-brand p {
+	color: white;
+	font-size: 1.25rem;
+}
+
+.landing .landing-action {
+	margin-top: 2rem;	
+	display: flex;
+}
+
+.landing-action .cta {
+	text-decoration: none;
+	display: inline-block;
+	padding: .45rem 1rem;
+	border-radius: .5rem;
+}
+
+.landing-action .cta:nth-child(2) {
+	background-color: var(--youth-blue);
+	color: white;
+}
+
+.landing-action .cta:nth-child(1) {
+	border: 2px solid var(--youth-blue);
+	color: white;
+	margin-right: 1rem;
+}

@@ -29,4 +29,23 @@
 	.nav-menu li {
 		font-size: .9rem;
 	}
+
+	.landing {
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-top: 2rem;
+	}
+
+	.landing .landing-brand, .landing .landing-hero {
+		width: 100%;
+	}
+
+	.landing .landing-hero {
+		margin-top: 2rem;
+	}
+
+	.landing .landing-hero img {
+		margin: auto;
+		display: block;
+	}
 }
