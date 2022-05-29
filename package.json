@@ -1,0 +1,24 @@
+{
+  "name": "dicoding-submission",
+  "version": "1.0.0",
+  "description": "Dicoding Submission Project ",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/or-abdillh/dicoding-submission.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS"
+  ],
+  "author": "Oka R. Abdillah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/or-abdillh/dicoding-submission/issues"
+  },
+  "homepage": "https://github.com/or-abdillh/dicoding-submission#readme"
+}

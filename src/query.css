@@ -1,0 +1,32 @@
+/* Media Query */
+
+@media only screen and (max-width: 640px) {
+	.nav {
+		flex-wrap: wrap;
+		padding: 1rem 0 0 0;
+	}
+
+	.nav .nav-brand {
+		width: 50%;
+		margin: 0 auto 2rem;
+	}
+
+	.nav-brand {
+		flex-direction: column;
+	}
+
+	.nav-brand img {
+		width: 25%;
+		margin-right: 1rem;
+	}
+
+	.nav .nav-menu {
+		width: 100%;
+		background-color: var(--youth-blue);
+		padding: .55rem;
+	}	
+
+	.nav-menu li {
+		font-size: .9rem;
+	}
+}
