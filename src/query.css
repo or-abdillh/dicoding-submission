@@ -48,4 +48,31 @@
 		margin: auto;
 		display: block;
 	}
+
+	.content {
+		flex-wrap: wrap;
+	}
+
+	[data-role=articles-wrapper] {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	[data-role=articles-wrapper] .article {
+		margin-bottom: 1rem;
+	}
+
+	.aside {
+		width: 100%;
+		margin-top: 2rem;
+		flex-direction: row;
+		border: 1px dashed rgba(255, 255, 255, .5);
+	}
+
+	.aside img {
+		width: 45%;
+		margin-left: .55rem;
+	}
 }
+
+
