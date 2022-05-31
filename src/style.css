@@ -15,6 +15,10 @@
 	--youth-blue: #535BFF;
 }
 
+body {
+	background-color: var(--blue);
+}
+
 /* Global class */
 .container {
 	width: 100%;
@@ -151,6 +155,7 @@
 
 [data-role=articles-wrapper] {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 1rem;
 }
@@ -161,6 +166,7 @@
 	display: flex;
 	align-items: flex-start;
 	margin-right: .55rem;
+	width: 45%;
 }
 
 .article .article-number {
@@ -205,4 +211,14 @@
 .aside p {
 	margin-bottom: .25rem;
 	font-size: .85rem;
+}
+
+footer {
+	background-color: var(--youth-blue);
+	color: white;
+	text-align: center;
+}
+
+.footer-content h1 {
+	margin-bottom: .65rem;
 }

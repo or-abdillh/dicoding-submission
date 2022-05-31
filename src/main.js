@@ -12,13 +12,18 @@ const articles = [
   },
  {
    id: 2,
-	 title: 'Prewedding Videography',
-	 description: 'Nam ac mauris at justo adipiscing facilisis. Nunc et velit. Donec.'
+   title: 'Prewedding Videography',
+   description: 'Nam ac mauris at justo adipiscing facilisis. Nunc et velit. Donec.'
   },
  {
    id: 3,
-	 title: 'Prewedding Photography',
-	 description: 'Nam ac mauris at justo adipiscing facilisis. Nunc et velit. Donec.'
+   title: 'Prewedding Photography',
+   description: 'Nam ac mauris at justo adipiscing facilisis. Nunc et velit. Donec.'
+  },
+  {
+   id: 4,
+   title: 'Wedding Organizer',
+   description: 'Nam ac mauris at justo adipiscing facilisis. Nunc et velit. Donec.'
   }
 ]
 
