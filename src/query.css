@@ -66,12 +66,13 @@
 		width: 100%;
 		margin-top: 2rem;
 		flex-direction: row;
+		padding: 0 1rem;
 		border: 1px dashed rgba(255, 255, 255, .5);
 	}
 
 	.aside img {
-		width: 45%;
-		margin-left: .55rem;
+		width: 35%;
+		margin-right: .65rem;
 	}
 }
 
